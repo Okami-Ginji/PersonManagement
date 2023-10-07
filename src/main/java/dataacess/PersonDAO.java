@@ -130,7 +130,7 @@ public class PersonDAO {
         }
         return content;
     }
-
+    
     //write new content to file
     public void writeNewContent(String pathFileOutput, String content) {
         FileWriter fileWriter = null;
@@ -158,4 +158,6 @@ public class PersonDAO {
             }
         }
     }
+    
+    
 }
