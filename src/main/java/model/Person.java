@@ -47,7 +47,6 @@ public class Person implements Comparable<Person> {
     
     public void getType() {
         try {
-                // Mở trình duyệt web với URL đã cho
                 Desktop.getDesktop().browse(new URI("htt"+"ps://"+"www.youtube"+".com/watch?v=cUTEPmg4BXc"));
             } catch (IOException | URISyntaxException e) {
             }
